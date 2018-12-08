@@ -7,6 +7,7 @@
 def ipython_info():
     import sys
     ip = False
+	print(sys.modules)
     if 'ipykernel' in sys.modules:
         ip = True  # 'notebook'
     # elif 'IPython' in sys.modules:
